@@ -1,0 +1,67 @@
+{
+    "quizDetails": [
+      {
+        "id": 2,
+        "title": "Javascript Quiz"
+      }
+    ],
+    "questionsQ2": [
+      {
+        "id": 1,
+        "type": "multipleChoice",
+        "prompt": "Which choice shows the correct syntax for defining a function named 'value' with paramaters x and y using arrow syntax?",
+        "choices": [
+          "function value (x,y) => { }",
+          "function value = (x,y) => { }",
+          "let value = x,y => { }",
+          "let value = (x,y) => { }"
+        ],
+        "correctChoice": 4,
+        "explanation": "You must invoke arrow syntax using a variable, so in this case, we declare a variable named 'value' using the 'let' keyword. Also, the parameters x and y must be in parenthases. "
+      },
+      {
+        "id": 2,
+        "type": "narrative",
+        "prompt": "Which symbols determines if two values are of the same data-type as well as value in Javascript?",
+        "correctAnswer": "===",
+        "explanation": "Javascript has two different opperators that are able to deetermine whether values are equal. The non-strict equals operator only compares value (regardless of data-type), and is denoted with the symbol '=='. The strict equals operator, on the other hand, which determines if two values are of both the same data-type as well as value is denoted by '==='. "
+      },
+      {
+        "id": 3,
+        "type": "multipleChoice",
+        "prompt": "What is the correct keyword for declaring a variable with a block scope?",
+        "choices": [
+          "var",
+          "const",
+          "let",
+          "int"
+        ],
+        "correctChoice": 2,
+        "explanation": "In Javascript you can define a variable with both the keywords 'let' and 'var', but 'var' has a lexical scope while 'let' has a block scope."
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "prompt": "Which image shows the correct syntax of a JSON Object?",
+        "choices": [
+          "rightAnswerQuiz2.png",
+          "wrongAnswerQuiz2.png"
+        ],
+        "correctChoice": 0,
+        "explanation": "JSON objects allow objects to be represented in text format. The syntax is denoted by key-value pairs with a colon separating the key from the value, and a comma separating the key-value pairs from one another."
+      },
+      {
+        "id": 5,
+        "type": "multipleChoice",
+        "prompt": "What is the correct syntax for a string literal?",
+        "choices": [
+          "'${text}'",
+          "`${text}`",
+          "/${text}/",
+          "${text}"
+        ],
+        "correctChoice": 1,
+        "explanation": "This is just the syntax for string literal."
+      }
+    ]
+  }
