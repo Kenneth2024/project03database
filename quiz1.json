@@ -1,0 +1,67 @@
+{
+    "quizDetails": [
+      {
+        "id": 1,
+        "title": "Java Quiz"
+      }
+    ],
+    "questionsQ1": [
+      {
+        "id": 1,
+        "type": "multipleChoice",
+        "prompt": "How do you declare an ArrayList of type Integer named 'values?' ",
+        "choices": [
+          "ArrayList values = new ArrayList<Integer>();",
+          "ArrayList values = new ArrayList<int>();",
+          "ArrayList values = new ArrayList<Integer>;",
+          "ArrayList values = new ArrayList<int>;"
+        ],
+        "correctChoice": 0,
+        "explanation": "ArrayLists cannot be composed of primitive data types, and since int is a primative type, you must use the wrapper class version of int, Integer. Also, ArrayList is a class, which is why is must include parenthases at the end."
+      },
+      {
+        "id": 2,
+        "type": "narrative",
+        "prompt": "What is the name for the elements that make-up a linked list?",
+        "correctAnswer": "node",
+        "explanation": "A linked list consists of nodes, where each node contains a data field and a reference link to the next node in the list."
+      },
+      {
+        "id": 3,
+        "type": "multipleChoice",
+        "prompt": "What method has the same name as the class and no return type?",
+        "choices": [
+          "compare To method",
+          "constructor method",
+          "equals method",
+          "round method"
+        ],
+        "correctChoice": 1,
+        "explanation": "Constructor methods are unique methods that have the same name as the class and no return type. The other methods listed are just built-in java methods."
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "prompt": "Which image shows a recursive method that would have a StackOverFlowError?",
+        "choices": [
+          "wrongAnswerQuiz1.png",
+          "rightAnswerQuiz1.png"
+        ],
+        "correctChoice": 1,
+        "explanation": "The second recursive call does not have a terminal condition, and so it will loop infinitely leading to a StackOverFlowError."
+      },
+      {
+        "id": 5,
+        "type": "multipleChoice",
+        "prompt": "When dealing with file handling, what must you first import?",
+        "choices": [
+          "java.io.File",
+          "java.io.file",
+          "java.util.File",
+          "java.util.file"
+        ],
+        "correctChoice": 0,
+        "explanation": "The File class is apart of the java.io package, and File must start with an uppercase 'F' as the language is case-sensitive. "
+      }
+    ]
+  }
